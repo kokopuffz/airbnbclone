@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.describe "Api::Users", type: :request do
   describe "GET show" do
     let(:headers) do 
-      { "Accept" => "application/json" }
+      { "ACCEPT" => "application/json" }
     end
   
     context "user exists" do
