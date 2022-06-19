@@ -57,4 +57,8 @@ Rails.application.configure do
 
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
+
+  
+  # This is to prevent error caused by scss-rails gem when running tests 
+  config.assets.css_compressor = nil
 end
